@@ -1,0 +1,112 @@
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: transparent;
+    align-items: center;
+    width: 90%;
+    padding: 5%;
+    
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 3%;
+
+}
+.heading{
+    margin-top: 5%; 
+     text-align: center;
+     font-size: 3rem;
+     font-weight: 700;
+     text-transform: capitalize;
+     font-family:'Climate Crisis',cursive;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     color: black;
+ }
+ 
+ .line hr{
+    width: 150px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: rgb(193, 37, 37);
+    animation: animate 3s infinite;
+    
+}
+@keyframes animate {
+   0% {
+     left: 100%;
+     transform: translate(100%);
+   }
+   50% {
+     left: 0;
+     transform: translate(-100%);
+   }
+    100% {
+     right: 100%;
+     transform: translate(100%);
+   }
+ 
+ }
+
+ 
+  
+.gallery-item {
+    z-index: 1;
+    width: 20%;
+   
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  
+    border-radius: 0.5rem;
+    /* flex:1 1 30rem; */
+  
+    position: relative;
+}
+.b {
+    z-index: 0;
+    position: absolute;
+    top:-150%;
+    height: 100%;
+    width: 100%;
+   
+    text-align: center;
+    background: rgba(0, 0, 0, 0.874);
+    padding: 2rem;
+    padding-top: 5rem;
+    transition: 0.5s all ease;
+  }
+  .gallery-item:hover .b {
+    z-index: 2;
+    transition: 0.5s;
+    top: 0;
+    
+  }
+
+.gallery-item img {
+    width: 100%;height: auto;
+   
+    object-fit: cover;
+}
+.gallery-content {
+    font-size: .8em;
+}
+.image{
+    height:10%;
+    width: 100%;
+}
+.imagei{
+    position: relative;
+  
+    
+}
+@media screen and (max-width: 900px) {
+    .gallery-container{
+        flex-direction: column;
+    }
+    .gallery-item {
+        width:70%;
+    }
+}

@@ -1,0 +1,21 @@
+.landing{
+    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing h1{
+    font-size:7rem;
+    font-family: 'Climate Crisis', cursive;
+    color: black;
+    position: relative;
+    margin-top: -3%;
+}
+@media screen and (max-width: 768px) {
+    .landing h1{
+        font-size: 5rem;
+    }
+}

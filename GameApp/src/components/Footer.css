@@ -1,0 +1,114 @@
+.FootLogo{
+    width: 300px;
+    height: 270px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+.footer{
+    width: 100%;
+    position:relative;
+    height:400px;
+    color:#fff;
+    padding:80px 0 -100px;
+    font-size: 13px;
+    line-height: 10px;
+    margin-top: auto;
+    background:#9c1212;
+    /* border-top-left-radius:35% ;
+    border-top-right-radius:35% ; */
+  }
+  
+  .footer .boxf-container{
+  display: flex;
+  flex-wrap: wrap;
+  
+  }
+  
+  .footer .boxf-container .boxf{
+  padding:1rem 0;
+  flex:1 1 25rem;
+  }
+  
+  .footer .boxf-container .boxf h3{
+  font-size: 1.5rem;
+  padding:.7rem 0;
+  color:#fff;
+  }
+  
+  .footer .boxf-container .boxf p{
+  font-size: 1rem;
+  padding:.2rem 0.1rem;
+  color:#eee;
+  }
+  
+  .footer .boxf-container .boxf a{
+  display: block;
+  font-size: 1rem;
+  padding:.3rem 0;
+  color:#eee;
+  }
+  
+  .footer .boxf-container .boxf a:hover{
+  color:black;
+  
+  }
+  .footer .boxf-container .boxf p:hover{
+  color:black;
+  
+  }
+  
+  .footer .credit{
+  text-align: center;
+  padding:2rem 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color:#fff;
+  border-top: .1rem solid rgba(255,255,255,.2);
+  }
+  
+  .footer .credit span{
+  color:var(--orange);
+  }
+  
+  .social-icons .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-left: 50px;
+    cursor: pointer;
+  
+  }
+  .social-icons i:hover{
+  color:#bccdef;
+  
+  }
+  .footer hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid white;
+    
+    position: relative;
+    top:-80px;
+  
+  }
+  .copyright{
+    position: relative;
+    top:-80px;
+    text-align: center;
+  
+  }
+  .made{
+    position: relative;
+    top:-80px;
+    text-align: center;
+  }
+
+  .made p:hover{
+    color:#000000;
+  }
