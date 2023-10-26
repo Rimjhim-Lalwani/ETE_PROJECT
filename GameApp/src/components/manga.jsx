@@ -17,23 +17,36 @@ function Manga(){
                 </div>
       
         <div className="gallery-container">
-            <div className="gallery-item" >
+            <div className='gallery-item1'>
+                <div className="gallery-item" >
                 <img src={one} />
                 <div className="b"> hey hellooo</div>
+                
+            </div><button>Add To Library</button>
             </div>
             
-            <div className="gallery-item" >
+            <div className='gallery-item1'>
+                <div className="gallery-item" >
                 <img src={two} />
-                <div className="b"></div>
+                <div className="b"> hey Add To Libraryoo</div>
+                
+            </div><button>Add To Library</button>
             </div>
-            <div className="gallery-item">
+            <div className='gallery-item1'>
+                <div className="gallery-item" >
                 <img src={three} />
-                <div className="b"></div>
+                <div className="b"> hey Add To Libraryoo</div>
+                
+            </div><button>Add To Library</button>
             </div>
-            <div className="gallery-item" >
+            <div className='gallery-item1'>
+                <div className="gallery-item" >
                 <img src={four} />
-                <div className="b"></div>
+                <div className="b"> hey Add To Libraryoo</div>
+                
+            </div><button>Add To Library</button>
             </div>
+            
         </div>
         <div className='imagei'>
         <img src={i} height="300px" width="300px"  />

@@ -31,16 +31,16 @@ const Footer = () => {
               <br></br>
               <br></br>
               <li>
-                <Link to="/">Home</Link>
+                <a href="/">Home</a>
               </li>
               <li>
-                <Link to="/products">Recommendations</Link>
+                <a href="/cards">Games</a>
               </li>
               <li>
-                <Link to="/consultants">Consultants</Link>
+                <a href="/manga">Anime</a>
               </li>
               <li>
-                <Link to="/blogs">Blog</Link>
+                <a href="/jokes">Jokes</a>
               </li>
             </ul>
           </div>
@@ -57,7 +57,7 @@ const Footer = () => {
         <p className="copyright">ErrorLess Girls ⓒ 2023 - All Rights Reserved </p>
         <div className="made">
           <p>
-            Made with ♡ by <b>ErrorLess Girls</b>
+            Made with ♡ by <b>Rishav & Rimjhim</b>
           </p>
         </div>
   
