@@ -118,6 +118,10 @@
     color:#000000;
   }
   @media screen and (max-width: 768px) {
+    .boxf-container
+    {
+      left: 10%;
+    }
     .boxf{
       flex-direction: column;
       
