@@ -121,7 +121,7 @@ function Game1() {
           >
             Start
           </button>
-          <div className="arrow-msg text">Press Arrows keys to play!</div>
+          <div className="arrow-msg text">Press W(Up)A(Left)S(Down)D(Right) keys to play!</div>
         </>
       )}
       {gameOver && (

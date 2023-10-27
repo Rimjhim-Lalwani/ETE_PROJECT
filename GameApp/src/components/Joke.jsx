@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import './styles/Joke.css';
-
+import i from './images/i3.png';
 const Joke = () => {
 	const [Joke, setJoke] = React.useState("");
 
@@ -15,7 +15,9 @@ const Joke = () => {
 		
 		<div className="joke">
 			<div className="heading">
-            random jokes
+            random jokes<div className='imagei2'>
+        <img src={i} height="200px" width="200px"  />
+        </div>
             </div>
             <div className="line">
                 <hr/>

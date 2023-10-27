@@ -1,12 +1,14 @@
 import './styles/cards.css';
-
+import i from './images/i2.png';
 function Cards(){
     return(
         <div>
         
         <div className="heading">
       play mini games
-
+      <div className='imagei2'>
+        <img src={i} height="300px" width="300px"  />
+        </div>
     </div>
     <div className="line">
                 <hr/></div>
