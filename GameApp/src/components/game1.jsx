@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "./Snake.css";
+import "./styles/Snake.css";
 import Food from "./Food";
 import Snake from "./Snake";
 
@@ -59,18 +59,30 @@ function Game1() {
     let x = tmpSnake[tmpSnake.length - 1].x,
       y = tmpSnake[tmpSnake.length - 1].y;
     switch (lastDirection) {
-      case "ArrowUp":
+      case "W":
         y -= 4; //move by -4% top
         break;
-      case "ArrowRight":
+        case "w":
+          y -= 4; //move by -4% top
+          break;
+      case "D":
         x += 4; //move by 4% right
         break;
-      case "ArrowDown":
+        case "d":
+          x += 4; //move by 4% right
+          break;
+      case "S":
         y += 4; //move by 4% down
         break;
-      case "ArrowLeft":
+        case "s":
+        y += 4; //move by 4% down
+        break;
+      case "A":
         x -= 4; //move by -4% left
         break;
+        case "a":
+          x -= 4; //move by -4% left
+          break;
       default:
         break;
     }

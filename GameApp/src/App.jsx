@@ -7,6 +7,7 @@ import Manga from "./components/manga";
 import Game1 from "./components/game1";
 import Navbar from "./components/navbar";
 import Game2 from "./components/game2";
+import ReactDOM from 'react-dom'
 
  
 const App = () => {

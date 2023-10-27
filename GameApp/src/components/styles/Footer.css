@@ -1,39 +1,48 @@
 .FootLogo{
-    width: 300px;
-    height: 270px;
+    width: 200px;
+    height: 170px;
     margin-left: 70px;
-    margin-top: 20px;
   }
 .footer{
     width: 100%;
     position:relative;
-    height:400px;
+    height:30%;
     color:#fff;
-    padding:80px 0 -100px;
     font-size: 13px;
     line-height: 10px;
-    margin-top: auto;
+    
+    margin-bottom: -10%;
     background:#9c1212;
-    /* border-top-left-radius:35% ;
-    border-top-right-radius:35% ; */
+    
   }
   
   .footer .boxf-container{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  gap:20px;
   
   }
-  
-  .footer .boxf-container .boxf{
+ .boxf{
+  display: flex;
+  flex-direction: row;
   padding:1rem 0;
-  flex:1 1 25rem;
+ }
+ .boxf ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 1.2rem;
+  
+    
+  }
+  .boxf li{
+    list-style-type: none;
+    
+    padding: 2rem;
   }
   
-  .footer .boxf-container .boxf h3{
-  font-size: 1.5rem;
-  padding:.7rem 0;
-  color:#fff;
-  }
+  
   
   .footer .boxf-container .boxf p{
   font-size: 1rem;
@@ -41,21 +50,13 @@
   color:#eee;
   }
   
-  .footer .boxf-container .boxf a{
-  display: block;
-  font-size: 1rem;
-  padding:.3rem 0;
-  color:#eee;
-  }
+  
   
   .footer .boxf-container .boxf a:hover{
   color:black;
   
   }
-  .footer .boxf-container .boxf p:hover{
-  color:black;
   
-  }
   
   .footer .credit{
   text-align: center;
@@ -72,19 +73,23 @@
   }
   
   .social-icons .fab{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
-    font-size: 20px;
-    color: #000;
+    
     background: #fff;
     margin-left: 50px;
+  
     cursor: pointer;
   
   }
-  .social-icons i:hover{
+  .social-icons{
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+  .social-icons :hover{
   color:#bccdef;
   
   }
@@ -94,7 +99,8 @@
     border-bottom: 1px solid white;
     
     position: relative;
-    top:-80px;
+    top:-60px;
+    margin-bottom: 50px;
   
   }
   .copyright{
@@ -111,4 +117,22 @@
 
   .made p:hover{
     color:#000000;
+  }
+  @media screen and (max-width: 768px) {
+    .boxf{
+      flex-direction: column;
+      
+    }
+    .social-icons{
+      margin-top: -70px;
+      margin-left: 280px;
+    }
+    .FootLogo{
+      margin-left: 200px;
+    }
+    .boxf ul{
+      margin-top:-70px;
+
+      
+    }
   }

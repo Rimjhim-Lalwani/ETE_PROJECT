@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import './Joke.css';
+import './styles/Joke.css';
 
 const Joke = () => {
 	const [Joke, setJoke] = React.useState("");

@@ -14,7 +14,8 @@
  
 .contain{
     width: 50%;
-    height: 200px;
+    height:200px;
+    overflow-x: scroll;
     border-radius: 8px;
     border-color: black;
     background-color: white;
@@ -30,6 +31,9 @@
     .contain{
         width: 70%;
         font-size: 1.5rem;
+    }
+    .joke{
+        margin-top: 10%;
     }
 
 }

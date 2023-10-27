@@ -11,9 +11,10 @@
   .tic{
     margin-top: 5%;
     margin-left: 30%;
+    margin-right: 30%;
     padding: 1%;
-    width: 500px;
-    height: 500px;
+    width:auto;
+    height: 40%;
     border: 1px solid rgb(0, 0, 0);
     position: relative;
     display: flex;
@@ -24,3 +25,8 @@
     font-family: monospace;
     border-radius: 10px;
   }
+  @media screen and (max-width: 900px) {
+        .tic{
+          margin: 15%;
+        }
+}

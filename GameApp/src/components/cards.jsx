@@ -1,4 +1,4 @@
-import './cards.css';
+import './styles/cards.css';
 
 function Cards(){
     return(
@@ -20,7 +20,7 @@ function Cards(){
         
         <div className="r1details">
           <p>
-            
+          Battle of X's and O's in a tiny, dramatic arena where these two enemies try to win by forming a sneaky row, column, or diagonal line of their own kind.
           </p>
         </div>
         <a href="/tictactoe"><button>Play</button></a>
@@ -38,7 +38,7 @@ function Cards(){
         </div>
         <div className="r1details">
           <p>
-            
+          you're a hungry snake on a never-ending buffet quest. Your main goal is to eat as many "yummy" pixels on the screen as possible, but here's the catch: you can't stop moving, and you grow longer with every bite.
           </p>
         </div>
         <a href="/snake"><button>Play</button></a>

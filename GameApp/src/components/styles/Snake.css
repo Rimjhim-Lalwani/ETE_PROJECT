@@ -1,9 +1,10 @@
 
 .snake {
    
+   
+    margin:30%;
     margin-top: 5%;
-    margin-left: 30%;
-    width: 500px;
+    width: auto;
     height: 500px;
     border: 1px solid rgb(0, 0, 0);
     background-color: black;
@@ -52,4 +53,10 @@
     bottom: 0px;
     color: #f3ff48;
    
+  }
+  @media screen and (max-width: 900px){
+    .snake{
+      margin:15%;
+      margin-top: 20%;
+    }
   }

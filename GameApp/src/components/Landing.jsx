@@ -1,4 +1,4 @@
-import './Landing.css';
+import './styles/Landing.css';
 import eye from "./images/eye.gif"
 function Landing(){
     return(
@@ -7,6 +7,9 @@ function Landing(){
             <h1>
                 Funny Flicks
             </h1>
+            <p>
+                Games, Anime and much more...
+            </p>
         </div>
     )
 }
