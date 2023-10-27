@@ -41,7 +41,7 @@ const Game2 = () => {
   return (
     <div className="tic">
       <p style={style.info}>
-        {winner ? "Winner: " + winner : "Next Player: " + (xTurn ? "X" : "O") }
+        {winner ? (winner!="Draw" ? "Winner: " + winner : "DRAW") : "Next Player: " + (xTurn ? "X" : "O") }
       </p>
       <Board squares={board} handleClick={handleClick} />
       <div>{resetBoard()}</div>

@@ -16,6 +16,8 @@ export function calculateWinner(board) {
         return board[a];
       }
     }
-  
+    if (board.every((square) => square !== null)) {
+      return "Draw";
+    }
     return null;
   }
